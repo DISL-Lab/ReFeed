@@ -1,6 +1,6 @@
 accelerate launch --main_process_port 33333 --config_file=/configs/zero3.yaml /src/sft_qlora.py \
     --model_name_or_path meta-llama/Llama-3.1-8B-Instruct \
-    --dataset_name hamzzi/refeed-llama3-C4-w-permutation-4K \
+    --dataset_name DISLab/SumFeed-CoT \
     --output_dir model/ReFeed-8B \
     --per_device_train_batch_size 1 \
     --per_device_eval_batch_size 1 \
