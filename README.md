@@ -1,5 +1,5 @@
 <h1 align="center">
-ReFeed
+♻️ ReFeed
 </h1>
 
 
@@ -22,7 +22,7 @@ ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on 
   
 
 <p align="center">
-  <img src="./imgs/refeed_overview.png" style="width: 85%;" id="title-icon">
+  <img src="./imgs/refeed_overview.png" style="width: 100%;" id="title-icon">
 </p>
 
 </div>
@@ -78,7 +78,7 @@ For training, use the following command:
 sh ./script/sft.sh
 ```
 
-# 📄 Results
+## 📄 Results
 
 
 <p align="center">
