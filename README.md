@@ -65,10 +65,10 @@ Our contributions:
    - Ensure all dependencies are properly installed and configured.
 
 2. **Data Preparation**
-   - Obtain the LIMO-v2 dataset from [🤗 Hugging Face](https://huggingface.co/datasets/DISLab/SumFeed-CoT).
+   - Obtain the SumFeed-CoT dataset from [🤗 Hugging Face](https://huggingface.co/datasets/DISLab/SumFeed-CoT).
 
 3. **Configuration**
-   - Use our provided [configuration file](https://github.com/DISL/refeed/configs/zero3.yaml).
+   - Use our provided [configuration file](./configs/zero3.yaml).
 
 ### Launch Training
 
