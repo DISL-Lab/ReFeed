@@ -55,7 +55,7 @@ Our contributions:
 
 | Dataset | Description | Link |
 |---------|-------------|------|
-| SumFeed-CoT | Training set for ReFeed (7713 samples) | [🤗](https://huggingface.co/datasets/GAIR/LIMO-v2) |
+| SumFeed-CoT | Training set for ReFeed (7713 samples) | [🤗](https://huggingface.co/datasets/DISLab/SumFeed-CoT) |
 
 ## 🛠️ Quick Start
 
@@ -65,7 +65,7 @@ Our contributions:
    - Ensure all dependencies are properly installed and configured.
 
 2. **Data Preparation**
-   - Obtain the LIMO-v2 dataset from [🤗 Hugging Face](https://huggingface.co/datasets/GAIR/LIMO-v2).
+   - Obtain the LIMO-v2 dataset from [🤗 Hugging Face](https://huggingface.co/datasets/DISLab/SumFeed-CoT).
 
 3. **Configuration**
    - Use our provided [configuration file](https://github.com/DISL/refeed/configs/zero3.yaml).
