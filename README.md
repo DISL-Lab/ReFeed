@@ -43,7 +43,6 @@ ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on 
 
 ## Overview
 
-
 ReFeed rethinks summary refinement by showing that reflective reasoning over multi-dimensional feedback is key to achieving balanced, robust improvements. 
 
 Our contributions:
