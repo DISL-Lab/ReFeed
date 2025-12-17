@@ -37,6 +37,7 @@ ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on 
   - [Quick Start](#quick-start)
     - [Training Setup](#training-setup)
     - [Launch Training](#launch-training)
+    - [Inference](#inference)
   - [Results](#evaluation)
   - [Citation](#citation)
   - [Acknowledgement](#acknowledgement)
@@ -52,6 +53,7 @@ Our contributions:
 * 🚀 **Demonstrates strong empirical gains and robustness**, achieving consistent improvements across faithfulness, completeness, and conciseness while remaining resilient to feedback quality and ordering
 
 ## 🤗 Model
+
 Our ReFeed model is available on Hugging Face 🤗:
 
 | Model | Backbone | Link |
@@ -59,6 +61,8 @@ Our ReFeed model is available on Hugging Face 🤗:
 | ReFeed-8B | Llama-3.1-8B-Instruct | [🤗](https://huggingface.co/DISLab/ReFeed-8B) |
 
 ## 🤗 Datasets
+
+We release our datasets through Hugging Face 🤗:
 
 | Dataset | Description | Link |
 |---------|-------------|------|
