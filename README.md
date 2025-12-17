@@ -32,6 +32,7 @@ ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on 
 ## 📄 Table of Contents
 - [📌 Table of Contents](#-table-of-contents)
   - [Overview](#overview)
+  - [Model](#model)
   - [Datasets](#datasets)
   - [Quick Start](#quick-start)
     - [Training Setup](#training-setup)
@@ -51,6 +52,13 @@ Our contributions:
 * 🏗️ **Releases SumFeed-CoT**, a large-scale Long-CoT dataset that distills high-quality reflective reasoning from large reasoning models into lightweight models
 * 🚀 **Demonstrates strong empirical gains and robustness**, achieving consistent improvements across faithfulness, completeness, and conciseness while remaining resilient to feedback quality and ordering
 
+## 🤗 Model
+Our ReFeed model is available on Hugging Face 🤗:
+
+| Model | Backbone | Link |
+|---------|-------------|------|
+| ReFeed-8B | Llama-3.1-8B-Instruct | [🤗](https://huggingface.co/DISLab/ReFeed-8B) |
+
 ## 🤗 Datasets
 
 | Dataset | Description | Link |
@@ -62,6 +70,7 @@ Our contributions:
 ### Training Setup
 
 1. **Environment Setup**
+   - We recommend following the environment setup in the [open-r1 documentation on huggingface](https://github.com/huggingface/open-r1)
    - Ensure all dependencies are properly installed and configured.
 
 2. **Data Preparation**
@@ -77,6 +86,10 @@ For training, use the following command:
 ```bash
 sh ./script/sft.sh
 ```
+
+### Inference
+
+For inference, use our provided [prompt](./src/inference.py).
 
 ## 📄 Results
 
